@@ -1,26 +1,27 @@
 html, body, *{
-
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 20px;
-
-
-font-size: 100%;
+margin: 0;
+padding: 0;
+font-size:100%;
+box-sizing:border-box;
 }
 
 .parent{
-    margin: 5vh;
+
+    background-color: brown;
+    margin: 80px auto;
     display: flex;
-    box-sizing: border-box;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
 
 }
 
 .child{
+
     background-color: aquamarine;
     box-sizing: border-box;
     border: 1.5px solid fuchsia;
     width: 29%;
+    height: 29%;
 }
