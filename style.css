@@ -4,9 +4,23 @@ padding: 0;
 font-size:62.5%;
 box-sizing:border-box;
 }
+.title{
+font-size: 30rem;
+font-family:serif;
+text-align: center;
+filter: drop-shadow(5px 5px 4px gray) ;
+}
+.subtitle{
+    font-size: 10rem;
+    font-family:serif;
+text-align: center;
+}
 
 .parent{
-    background-color: brown;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
     margin: 80px auto;
     display: flex;
     justify-content: space-around;
@@ -14,13 +28,32 @@ box-sizing:border-box;
     width: 100rem;
     height: 100rem;
 
+
 }
 
 .child{
-
-    background-color: aquamarine;
+margin-top: 2%;
     box-sizing: border-box;
-    border: 1.5px solid fuchsia;
     width: 29%;
     height: 29%;
+border-radius: 50px;
+background: #e0e0e0;
+box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+
+
 }
+
+.bluex{
+    margin: 10%;
+width: 80%;
+height: 80%;
+object-fit:contain
+}
+.redo{
+    margin: 10%;
+width: 80%;
+height: 80%;
+object-fit:contain
+}
+
