@@ -57,3 +57,9 @@ height: 80%;
 object-fit:contain
 }
 
+#red{color: red;}
+#blue{color: blue;}
+#purple{color: rgb(255, 56, 255);}
+h1{
+    display: inline;
+}
