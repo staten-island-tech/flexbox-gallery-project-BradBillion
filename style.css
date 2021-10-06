@@ -57,8 +57,9 @@ height: 80%;
 object-fit:contain
 }
 
-#red{color: red;}
+#red1{color: red;}
 #blue{color: blue;}
+#red2{color: red;}
 #purple{color: rgb(255, 56, 255);}
 h1{
     display: inline;
@@ -66,9 +67,23 @@ h1{
 
 .button{
     background-color: rgb(0,0,0,0);
-    border-radius: 6rem;
+    border-radius: 5rem;
     border-color: rgb(0,0,0,0);
 }
 .button:hover{
     background-color: rgb(256, 256, 256, 0.15);
+}
+
+.button:active{
+
+}
+
+.title:hover{
+    transform: scale(1.05);
+}
+#blue:hover{
+    
+}
+#red2:hover{
+    
 }
