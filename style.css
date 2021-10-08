@@ -4,16 +4,31 @@ padding: 0;
 font-size:62.5%;
 box-sizing:border-box;
 }
+body{}
+.backimg{
+    top: 0;
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+    justify-self:auto;
+    background-attachment: scroll;
+    filter: saturate(0.8);
+    filter: grayscale(0.1);
+}
 h1{
+    top:1rem;
+    position: absolute;
 text-align: center;
 font-size: 23rem;
 font-family:serif;
-filter: drop-shadow(5px 5px 4px gray);
+filter: drop-shadow(0.7rem 0.7rem 0.7rem black);
 display: inline;
 }
 .subtitle{
+    margin-top: 30rem;
     font-size: 10rem;
     font-family:serif;
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem black);
 text-align: center;
 }
 
@@ -58,10 +73,22 @@ height: 80%;
 object-fit:contain
 }
 
-.title-red1{color: red;}
-.title-blue{color: blue;}
-.title-red2{color: red;}
-.title-purple{color: rgb(255, 56, 255);}
+.title-red1{
+    left: 30rem;
+    color: red;
+}
+.title-blue{
+    left: 70rem;
+    color: blue;
+}
+.title-red2{
+    left: 110rem;
+    color: red;
+}
+.title-purple{
+    left: 150rem;
+    color: rgb(255, 56, 255);
+} 
 
 .button{
     background-color: rgb(0,0,0,0);
