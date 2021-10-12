@@ -12,34 +12,35 @@ body{
 }
 
 .header{
-    background-color: chartreuse;
+    margin-top: 25px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between auto;
     flex-wrap: wrap;
-    width: 100%;
-    height: 30rem;
+    width: 75%;
+    height: 20rem;
+    margin: auto;
 }
 .title{
     box-sizing: border-box;
-    width: 29%;
-    height: 29%;
+    margin: auto;
+
 }
 
 h1{
-    top:1rem;
-    position: absolute;
-text-align: center;
+    text-align: center;
 font-size: 15rem;
 font-family:serif;
-filter: drop-shadow(0.7rem 0.7rem 0.7rem black);
-display: inline;
+filter: drop-shadow(0.7rem 0.7rem 0.7rem rgb(255, 255, 255));
 }
+
 .subtitle{
-    margin-top: 19rem;
+    margin: auto;
+    /* background-color: rgba(255, 255, 255, 0.138); */
     font-size: 7rem;
     font-family:serif;
-    filter: drop-shadow(0.3rem 0.3rem 0.3rem black);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(255, 255, 255));
 text-align: center;
+width: 50%;
 }
 
 .parent{
@@ -66,8 +67,6 @@ border-radius: 50px;
 background: #e0e0e0;
 box-shadow: inset 20px 20px 60px #bebebe,
             inset -20px -20px 60px #ffffff;
-
-
 }
 
 .bluex{
@@ -87,7 +86,7 @@ object-fit:contain
     
     color: red;
 }
-.title-blue{
+.title-blue1{
    
     color: blue;
 }
@@ -95,9 +94,9 @@ object-fit:contain
    
     color: red;
 }
-.title-purple{
+.title-blue2{
    
-    color: rgb(255, 56, 255);
+    color: blue;
 } 
 
 .button{
@@ -112,7 +111,19 @@ object-fit:contain
 .button:active{
 
 }
-
-.title-blue:hover{
+.title-red1:hover{
+    transform: skew(5deg);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(180, 180, 180));
+}
+.title-red2:hover{
+    transform: rotate(5deg);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(180, 180, 180));
+}
+.title-blue1:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(180, 180, 180));
+}
+.title-blue2:hover{
+    transform:translate(-5px, -5px);
+    filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(180, 180, 180));
 }
