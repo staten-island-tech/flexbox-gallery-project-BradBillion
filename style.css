@@ -111,7 +111,17 @@ h1 {
 }
 
 .button:active {
+  background-color: rgba(255, 255, 255, 0.634);
 }
+
+.button:focus {
+  background-color: green;
+}
+
+.button:focus-within {
+  opacity: 0;
+}
+
 .title-red1:hover {
   transform: skew(5deg);
   filter: drop-shadow(0.3rem 0.3rem 0.3rem rgb(180, 180, 180));
