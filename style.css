@@ -158,7 +158,7 @@ h1 {
   0% {
     transform: scaleY(0.75);
   }
-  10% {
+  5% {
     transform: scaleY(1.25) translate(0rem, 10rem, 0rem) rotate(15deg);
   }
   60% {
